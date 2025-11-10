@@ -8,16 +8,33 @@ li {
     display: inline-block;
 }
 
+img {
+    display: block;
+    margin: 30px auto;
+}
+
+.home {
+    background-color: cadetblue;
+    color: black;
+    padding: 12px;
+    display: block;
+    font-size: 30px;
+}
+
 .heading {
-    background-color: cyan;
+    background-color: cornsilk;
     border: 2px solid red;
     padding: 12px;
     margin: 20px;
     text-align: center;
 }
 
+.heading-two {
+    margin: 12px;
+}
+
 .food-lists {
-    background-color: yellow;
+    background-color: aquamarine;
     border: 2px solid red;
     padding: 30px;
     margin: 20px;
