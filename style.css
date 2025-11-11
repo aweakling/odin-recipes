@@ -3,9 +3,32 @@
     padding: 0;
 }
 
-li {
-    margin: 10px;
+body {
+    background-color: lightgray;
+}
+
+h2 {
+    margin: 0 20px;
+    padding: 12px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: khaki;
     display: inline-block;
+    width: 150px;
+}
+
+p {
+    margin: 20px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+li {
+    margin: 20px;
+    text-align: left;
+    list-style-position: inside;
 }
 
 img {
@@ -21,6 +44,7 @@ img {
     font-size: 30px;
 }
 
+
 .heading {
     background-color: cornsilk;
     border: 2px solid red;
@@ -29,8 +53,8 @@ img {
     text-align: center;
 }
 
-.heading-two {
-    margin: 12px;
+.food-lists li {
+    display: inline-block;
 }
 
 .food-lists {
@@ -39,6 +63,5 @@ img {
     padding: 30px;
     margin: 20px;
     font-size: 30px;
-    display: block;
     text-align: center;
 }
